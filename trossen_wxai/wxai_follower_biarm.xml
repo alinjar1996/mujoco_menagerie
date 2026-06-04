@@ -15,7 +15,7 @@
         <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" material="trossen_material"/>
       </default>
       <default class="left/collision">
-        <geom type="mesh" group="3" friction="1 0.005 0.0005" solref="0.01"/>
+        <geom type="mesh" group="3" friction="1 0.005 0.0005" solref="0.01" rgba="0.15 0.15 0.15 1"/>
         <default class="left/gripper_collision">
           <geom condim="6"/>
         </default>
@@ -26,7 +26,7 @@
         <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" material="trossen_material"/>
       </default>
       <default class="right/collision">
-        <geom type="mesh" group="3" friction="1 0.005 0.0005" solref="0.01"/>
+        <geom type="mesh" group="3" friction="1 0.005 0.0005" solref="0.01" rgba="0.15 0.15 0.15 1"/>
         <default class="right/gripper_collision">
           <geom condim="6"/>
         </default>
@@ -251,7 +251,7 @@
                         mesh="left/gripper_right_collision"/>
                       <geom class="left/gripper_collision" size="0.005 0.016 0.028" pos="-0.004 0 0" type="box"/>
                       <geom name="left/gripper_right_pad" class="left/gripper_collision" size="0.008 0.002 0.005"
-                        pos="0.0615 0.021 0" type="box" rgba="0 0.5 0 0.5"/>
+                        pos="0.0615 0.021 0" type="box" group="4" rgba="0 0.5 0 0.5"/>
                       <geom class="left/gripper_collision" size="0.001" pos="0.062 0.0223 -0.005" type="sphere"/>
                       <geom class="left/gripper_collision" size="0.001" pos="0.067 0.0223 0" type="sphere"/>
                       <geom class="left/gripper_collision" size="0.001" pos="0.062 0.0223 0.005" type="sphere"/>
@@ -272,7 +272,7 @@
                         mesh="left/gripper_left_collision"/>
                       <geom class="left/gripper_collision" size="0.005 0.016 0.028" pos="-0.004 0 0" type="box"/>
                       <geom name="left/gripper_left_pad" class="left/gripper_collision" size="0.008 0.002 0.005"
-                        pos="0.0615 -0.021 0" type="box" rgba="0 0.5 0 0.5"/>
+                        pos="0.0615 -0.021 0" type="box" group="4" rgba="0 0.5 0 0.5"/>
                       <geom class="left/gripper_collision" size="0.001" pos="0.062 -0.0223 -0.005" type="sphere"/>
                       <geom class="left/gripper_collision" size="0.001" pos="0.067 -0.0223 0" type="sphere"/>
                       <geom class="left/gripper_collision" size="0.001" pos="0.062 -0.0223 0.005" type="sphere"/>
@@ -378,7 +378,7 @@
                         mesh="right/gripper_right_collision"/>
                       <geom class="right/gripper_collision" size="0.005 0.016 0.028" pos="-0.004 0 0" type="box"/>
                       <geom name="right/gripper_right_pad" class="right/gripper_collision" size="0.008 0.002 0.005"
-                        pos="0.0615 0.021 0" type="box" rgba="0 0.5 0 0.5"/>
+                        pos="0.0615 0.021 0" type="box" group="4" rgba="0 0.5 0 0.5"/>
                       <geom class="right/gripper_collision" size="0.001" pos="0.062 0.0223 -0.005" type="sphere"/>
                       <geom class="right/gripper_collision" size="0.001" pos="0.067 0.0223 0" type="sphere"/>
                       <geom class="right/gripper_collision" size="0.001" pos="0.062 0.0223 0.005" type="sphere"/>
@@ -399,7 +399,7 @@
                         mesh="right/gripper_left_collision"/>
                       <geom class="right/gripper_collision" size="0.005 0.016 0.028" pos="-0.004 0 0" type="box"/>
                       <geom name="right/gripper_left_pad" class="right/gripper_collision" size="0.008 0.002 0.005"
-                        pos="0.0615 -0.021 0" type="box" rgba="0 0.5 0 0.5"/>
+                        pos="0.0615 -0.021 0" type="box" group="4" rgba="0 0.5 0 0.5"/>
                       <geom class="right/gripper_collision" size="0.001" pos="0.062 -0.0223 -0.005" type="sphere"/>
                       <geom class="right/gripper_collision" size="0.001" pos="0.067 -0.0223 0" type="sphere"/>
                       <geom class="right/gripper_collision" size="0.001" pos="0.062 -0.0223 0.005" type="sphere"/>

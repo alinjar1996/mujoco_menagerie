@@ -12,7 +12,7 @@
       <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" material="trossen_material"/>
     </default>
     <default class="collision">
-      <geom type="mesh" group="3" condim="3" friction="1 5e-3 5e-4" solref=".01 1"/>
+      <geom type="mesh" group="3" condim="3" friction="1 5e-3 5e-4" solref=".01 1" rgba="0.15 0.15 0.15 1"/>
       <default class="gripper_collision">
         <geom condim="6"/>
       </default>
@@ -157,7 +157,7 @@
                       <geom class="gripper_collision" mesh="gripper_right_collision" pos="0 -0.00154 0"/>
                       <geom class="gripper_collision" type="box" size="0.005 0.016 0.028" pos="-0.004 0 0"/>
                       <geom name="gripper_right_pad" class="gripper_collision" type="box" size="0.008 0.002 0.005"
-                        pos="0.0615 0.021 0" rgba="0 0.5 0 0.5"/>
+                        pos="0.0615 0.021 0" rgba="0 0.5 0 0.5" group="4"/>
                       <geom class="gripper_collision" type="sphere" size="0.001" pos="0.062 0.0223 -0.005"/>
                       <geom class="gripper_collision" type="sphere" size="0.001" pos="0.067 0.0223 0"/>
                       <geom class="gripper_collision" type="sphere" size="0.001" pos="0.062 0.0223 0.005"/>
@@ -177,7 +177,7 @@
                       <geom class="gripper_collision" mesh="gripper_left_collision" pos="0 0.00154 0"/>
                       <geom class="gripper_collision" type="box" size="0.005 0.016 0.028" pos="-0.004 0 0"/>
                       <geom name="gripper_left_pad" class="gripper_collision" type="box" size="0.008 0.002 0.005"
-                        pos="0.0615 -0.021 0" rgba="0 0.5 0 0.5"/>
+                        pos="0.0615 -0.021 0" rgba="0 0.5 0 0.5" group="4"/>
                       <geom class="gripper_collision" type="sphere" size="0.001" pos="0.062 -0.0223 -0.005"/>
                       <geom class="gripper_collision" type="sphere" size="0.001" pos="0.067 -0.0223 0"/>
                       <geom class="gripper_collision" type="sphere" size="0.001" pos="0.062 -0.0223 0.005"/>
